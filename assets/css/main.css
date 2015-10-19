@@ -152,8 +152,8 @@ body
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.6);
     color: #fff;
-}
-		/*Home*/
+    font-weight: bold; 
+}	/*Home*/
 .header-wrapper{
 	text-align: center;
 	display: table-cell;

@@ -31,6 +31,10 @@
 			<!--[if IE 8]>
 		    	<script src="assets/js/selectivizr.js"></script>
 		    <![endif]-->
+
+		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/x.x.x/jquery.min.js"></script>
+   		 <script src="jquery.bpopup-x.x.x.min.js"></script>
+
 	</head>
 <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
 
@@ -71,6 +75,7 @@
 					<p class="header-subtitle">
 						< programmer />
 					</p>
+					            <!-- Button that triggers the popup -->
 				</div> <!-- /.header-wrapper -->
 			</div>
 		</div> <!-- /.container -->
@@ -92,7 +97,11 @@
 					<p class="about-detail">
 						My name is Kara and I'm a smalltown girl from Western Florida who moved to the D.C. area when I was 12. I'm now studying Computer Science at Virginia Tech. My passions are to never stop exploring, learning, and adventuring. 
 					</p> <!-- /.about-detail -->
+
 				</div> <!-- /.col-md-6 -->
+				<button id="my-button">POP IT UP</button>
+            <!-- Element to pop up -->
+            <div id="element_to_pop_up">Content of popup</div>
 
 			</div> <!-- /.row -->
 
@@ -147,7 +156,7 @@
 	<section class="team">
 		<div class="container section-wrapper">
 			<h2 class="section-title black">
-				Internships and Work Experience
+				internships & work experience
 			</h2> <!-- /.section-title -->
 			<div class="underline purple"></div>
 			<div class="row">
@@ -205,7 +214,7 @@
 	<section class="testimonial">
 		<div class="container section-wrapper">
 			<div class="section-title">
-				experiences
+				experiences & awards
 			</div> <!-- /.section-title -->
 			<div class="underline white"></div>
 		<div class="owl-carousel add-owl">
@@ -216,10 +225,10 @@
 					<img src="assets/images/wwdc.png" alt="add" class="add-item">
 				</div> <!-- /.item -->
 				<div class="item">
-					<img src="assets/images/qwcc.png" alt="add" class="add-item">
+					<img src="assets/images/NCWITawd.jpg" alt="add" class="add-item">
 				</div> <!-- /.item -->
 				<div class="item">
-					<img src="assets/images/idr.jpg" alt="add" class="add-item">
+					<img src="assets/images/vthacks.jpg" alt="add" class="add-item">
 				</div> <!-- /.item -->
 				<div class="item">
 					<img src="assets/images/vturcs.gif" alt="add" class="add-item">
@@ -228,10 +237,10 @@
 					<img src="assets/images/mhacks6.jpg" alt="add" class="add-item">
 				</div> <!-- /.item -->
 				<div class="item">
-					<img src="assets/images/vthacks.jpg" alt="add" class="add-item">
+					<img src="assets/images/idr.jpg" alt="add" class="add-item">
 				</div> <!-- /.item -->
 				<div class="item">
-					<img src="assets/images/NCWITawd.jpg" alt="add" class="add-item">
+					<img src="assets/images/qwcc.png" alt="add" class="add-item">
 				</div> <!-- /.item -->
 			</div> <!-- /.owl-carousel -->
 		</div> <!-- /.container -->
@@ -371,60 +380,6 @@
 						<div class="portfolio-item-details">
 							<div class="portfolio-item-name">
 								Finger Yoga <br><small>iOS watch app</small>
-							</div> <!-- /.portfolio-item-name -->
-							<div class="port-heart">
-								<i class="ion-ios-heart-outline"></i> 564
-							</div> <!-- /.port-heart -->
-						</div> <!-- /.portfolio-item-details -->
-					</div> <!-- /.portfolio-item -->
-				</div> <!-- /.col-md-4 -->
-				<div class="col-sm-4 col-xs-6">
-					<div class="portfolio-item">
-						<div class="portfolio-img">
-							<img src="assets/images/port-4.png" alt="port-4" class="port-item">
-							<div class="portfolio-img-hover">
-								<a href="#"><img src="assets/images/plus.png" alt="plus" class="plus"></a>
-							</div> <!-- /.portfolio-img-hover -->
-						</div> <!-- /.portfolio-img -->
-						<div class="portfolio-item-details">
-							<div class="portfolio-item-name">
-								Finger Yoga <br><small>iOS watch app</small>
-							</div> <!-- /.portfolio-item-name -->
-							<div class="port-heart">
-								<i class="ion-ios-heart-outline"></i> 564
-							</div> <!-- /.port-heart -->
-						</div> <!-- /.portfolio-item-details -->
-					</div> <!-- /.portfolio-item -->
-				</div> <!-- /.col-md-4 -->
-				<div class="col-sm-4 col-xs-6">
-					<div class="portfolio-item">
-						<div class="portfolio-img">
-							<img src="assets/images/port-5.png" alt="port-5" class="port-item">
-							<div class="portfolio-img-hover">
-								<a href="#"><img src="assets/images/plus.png" alt="plus" class="plus"></a>
-							</div> <!-- /.portfolio-img-hover -->
-						</div> <!-- /.portfolio-img -->
-						<div class="portfolio-item-details">
-							<div class="portfolio-item-name">
-								Large Poster Set <br><small>Marketing</small>
-							</div> <!-- /.portfolio-item-name -->
-							<div class="port-heart">
-								<i class="ion-ios-heart-outline"></i> 564
-							</div> <!-- /.port-heart -->
-						</div> <!-- /.portfolio-item-details -->
-					</div> <!-- /.portfolio-item -->
-				</div> <!-- /.col-md-4 -->
-				<div class="col-sm-4 col-xs-6">
-					<div class="portfolio-item">
-						<div class="portfolio-img">
-							<img src="assets/images/port-6.png" alt="port-6" class="port-item">
-							<div class="portfolio-img-hover">
-								<a href="#"><img src="assets/images/plus.png" alt="plus" class="plus"></a>
-							</div> <!-- /.portfolio-img-hover -->
-						</div> <!-- /.portfolio-img -->
-						<div class="portfolio-item-details">
-							<div class="portfolio-item-name">
-								Skilet Album Cover <br><small>Business</small>
 							</div> <!-- /.portfolio-item-name -->
 							<div class="port-heart">
 								<i class="ion-ios-heart-outline"></i> 564

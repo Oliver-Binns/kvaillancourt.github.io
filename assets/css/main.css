@@ -512,6 +512,4 @@ a .rss:hover{
 		padding: 0 15px;
 	}
 } 
-@media (max-width: 320px){
-	
-}
+@media (max-width: 320px){}
